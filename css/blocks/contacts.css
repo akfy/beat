@@ -1,0 +1,12 @@
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contacts__image {
+  margin-right: 6px;
+}
