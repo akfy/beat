@@ -1,4 +1,4 @@
-.hero__container {
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,9 +6,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-left: 80px;
   padding-bottom: 52px;
-  min-height: 652px;
+  height: 100vh;
   position: relative;
 }
 
@@ -36,6 +39,10 @@
   margin-bottom: 72px;
 }
 
+.hero__content {
+  position: relative;
+}
+
 .hero__image {
   position: absolute;
   width: 498px;
@@ -45,5 +52,5 @@
   border-radius: 50%;
   z-index: -100;
   right: 92px;
-  top: 111px;
+  top: -50px;
 }

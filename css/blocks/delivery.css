@@ -1,15 +1,17 @@
 .delivery__container {
   padding: 68px 81px;
-  min-height: 652px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: url(../../img/bg.png) bottom no-repeat;
   background-size: 93%;
 }
 
-.delivery__title {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 52px;
-  text-transform: uppercase;
+.delivery {
+  background: #161616;
+}
+
+.main__title--delivery {
   margin-bottom: 61px;
   text-align: center;
   color: #FFFFFF;

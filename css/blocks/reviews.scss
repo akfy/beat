@@ -1,15 +1,12 @@
 .reviews__container {
     padding: 64px 121px;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
-.reviews__title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 52px;
-    text-transform: uppercase;
+.main__titile--reviews {
+    
     margin-bottom: 74px;
 }
 
@@ -52,26 +49,26 @@
     font-size: 18px;
     line-height: 21px
 }
-.reviews__pager__list {
+.reviews__pager-list {
     display: flex;
 }
 
-.review__pager__item{
+.review__pager-item{
     margin-right: 10px;
     &:last-child{
         margin-right: 0;
     }
 }
 
-.review__pager__image {
+.review__pager-image {
     height: 74px;
     width: 74px;
     border-radius: 50%;
     overflow: hidden;
     
 }
-.review__pager__item--active {
-    .review__pager__image{
+.review__pager-item--active {
+    .review__pager-image{
         border: 4px solid #E01F3D;
     }
     

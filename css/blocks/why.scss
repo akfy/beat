@@ -4,13 +4,9 @@
 }
 
 .why__container {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    min-height: 652px;
-    padding-left: 82px;
-    padding-right: 82px;
-    padding-top: 103px;
+    
 }
 
 .why__title {
