@@ -12,6 +12,7 @@
   padding-left: 80px;
   padding-bottom: 52px;
   height: 100vh;
+  min-height: 700px;
   position: relative;
 }
 
